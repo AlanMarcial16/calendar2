@@ -333,6 +333,22 @@
   <input type="radio" name="color_evento" id="indigo" value="#9c27b0">  
   <label for="indigo" class="circu" style="background-color: #9c27b0;"> </label>
 
+  <input type="radio" name="color_evento" id="fucsia" value="#c70039">  
+  <label for="fucsia" class="circu" style="background-color: #c70039;"> </label>
+
+  <input type="radio" name="color_evento" id="black" value="#212F3D">  
+  <label for="black" class="circu" style="background-color: #212F3D;"> </label>
+
+  <input type="radio" name="color_evento" id="silver" value="#7B7D7D">  
+  <label for="silver" class="circu" style="background-color: #7B7D7D;"> </label>
+
+  <input type="radio" name="color_evento" id="gold" value="#9A7D0A">  
+  <label for="gold" class="circu" style="background-color: #9A7D0A;"> </label>
+
+  <input type="radio" name="color_evento" id="salmon" value="#FF7F50">  
+  <label for="salmon" class="circu" style="background-color: #FF7F50;"> </label>
+  
+
 </div>
 		
 	   <div class="modal-footer">
