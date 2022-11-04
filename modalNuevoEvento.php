@@ -191,6 +191,7 @@
 			<label for="evento" class="col-sm-12 control-label">Habitación</label>
 			<div class="col-sm-10">
         <select class="form-control" id="evento" name="evento" placeholder="Habitación" onclick="LlenarTarifa2()" required>
+          <option selected>Selecciona una opción</option>
           <option value="Cuna de Moisés">Estándar 1 - Cuna de Moisés</option>
           <option value="Dalia">Estándar 2 - Dalia</option>
           <option value="Bugambilia">Superior 1 - Bugambilia</option>
@@ -264,7 +265,7 @@
     <div class="form-group">
       <label for="cliente" class="col-sm-12 control-label">Tarifa</label>
       <div class="col-sm-10">
-      <select class="form-control mb-3" id="tarifa" name="tarifa" placeholder="Tarifa" required>
+      <select class="form-control mb-3" id="tarifa" name="tarifa" placeholder="Tarifa" >
       </div>
     </div>
     <div class="form-group">
