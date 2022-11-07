@@ -28,11 +28,11 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `eventoscalendar` (
-  `id` int(11) NOT NULL,
-  `evento` varchar(250) DEFAULT NULL,
+  `id` int(11) NOT NULL, -- fungirá como el código de reserva
+  `evento` varchar(250) DEFAULT NULL, -- fungirá como la habitación
   `color_evento` varchar(20) DEFAULT NULL,
-  `fecha_inicio` varchar(20) DEFAULT NULL,
-  `fecha_fin` varchar(20) DEFAULT NULL
+  `fecha_inicio` varchar(20) DEFAULT NULL, -- fungirá como la variable fecha
+  `fecha_fin` varchar(20) DEFAULT NULL -- fungirá como la variable salida 
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
