@@ -39,11 +39,6 @@ CREATE TABLE `eventoscalendar` (
 -- Volcado de datos para la tabla `eventoscalendar`
 --
 
-INSERT INTO `eventoscalendar` (`id`, `evento`, `color_evento`, `fecha_inicio`, `fecha_fin`) VALUES
-(51, 'Mi Primera Prueba', 'teal', '2021-07-07', '2021-07-08'),
-(52, 'Mi Segunda Prueba', 'amber', '2021-07-17', '2021-07-18'),
-(53, 'Mi Tercera Prueba', 'orange', '2021-07-03', '2021-07-04');
-
 --
 -- Índices para tablas volcadas
 --

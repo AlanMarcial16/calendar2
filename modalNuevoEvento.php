@@ -60,8 +60,6 @@
 
             }
             
-
-
             function LlenarTarifa2()
             {
                 const selectElement = document.querySelector('#habitacion');
