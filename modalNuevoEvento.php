@@ -237,7 +237,7 @@
         <input type="text" class="form-control" name="cliente" id="cliente" placeholder="Introduzca el nombre del cliente" onblur="upperCase()" onkeypress="return SoloLetras(event)">
       </div>
     </div>
-    <div class="form-group">
+    <!--<div class="form-group">
       <label for="cliente" class="col-sm-12 control-label">Correo electronico</label>
       <div class="col-sm-10">
         <input type="text" class="form-control" name="cliente" id="cliente" placeholder="Introduzca el correo electronico">
@@ -309,7 +309,7 @@
       <div class="col-sm-10">
         <input type="text" class="form-control" name="cliente" id="cliente" placeholder="Comentarios">
       </div>
-    </div>
+    </div>-->
 
   <div class="col-md-12" id="grupoRadio">
   

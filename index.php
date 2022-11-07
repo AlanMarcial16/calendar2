@@ -95,7 +95,8 @@ $(document).ready(function() {
           title: '<?php echo $dataEvento['evento']; ?>',
           start: '<?php echo $dataEvento['fecha_inicio']; ?>',
           end:   '<?php echo $dataEvento['fecha_fin']; ?>',
-          color: '<?php echo $dataEvento['color_evento']; ?>'
+          color: '<?php echo $dataEvento['color_evento']; ?>',
+          client: '<?php echo $dataEvento['cliente']; ?>'
           },
         <?php } ?>
     ],

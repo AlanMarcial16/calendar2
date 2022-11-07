@@ -32,7 +32,8 @@ CREATE TABLE `eventoscalendar` (
   `evento` varchar(250) DEFAULT NULL, -- fungirá como la habitación
   `color_evento` varchar(20) DEFAULT NULL,
   `fecha_inicio` varchar(20) DEFAULT NULL, -- fungirá como la variable fecha
-  `fecha_fin` varchar(20) DEFAULT NULL -- fungirá como la variable salida 
+  `fecha_fin` varchar(20) DEFAULT NULL, -- fungirá como la variable salida 
+  `cliente` varchar(30) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
